@@ -8,7 +8,7 @@ set -e
 : "${MONGODB_PASSWORD:=mongopass}"
 : "${MONGODB_HOST:=tactical-mongodb}"
 : "${MONGODB_PORT:=27017}"
-: "${NGINX_HOST_IP:=172.20.0.20}"
+: "${NGINX_HOST_IP:=tactical-nginx}"
 : "${NGINX_HOST_PORT:=4443}"
 : "${MESH_COMPRESSION_ENABLED:=true}"
 : "${MESH_PERSISTENT_CONFIG:=0}"
